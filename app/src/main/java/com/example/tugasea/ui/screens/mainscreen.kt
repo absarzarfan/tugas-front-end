@@ -61,7 +61,7 @@ fun MainScreen() {
                 ) {
                     // Gambar atau ikon
                     Image(
-                        painter = painterResource(id = R.drawable.ikan_bluedevil), // Ganti dengan ikon yang sesuai
+                        painter = painterResource(id = R.drawable.ikan), // Ganti dengan ikon yang sesuai
                         contentDescription = "Fitur 1",
                         modifier = Modifier.size(80.dp)
                     )

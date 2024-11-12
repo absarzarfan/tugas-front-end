@@ -12,7 +12,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -60,7 +59,7 @@ fun AboutScreen() {
                 ) {
                     // Gambar di tengah dan bulat dengan bayangan
                     Image(
-                        painter = painterResource(id = R.drawable.check),
+                        painter = painterResource(id = R.drawable.check), // Ganti dengan gambar yang sesuai
                         contentDescription = "Profile Image",
                         modifier = Modifier
                             .size(120.dp) // Ukuran gambar lebih besar
